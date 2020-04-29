@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Hafıza Oyunu Ödev</title>
+    <meta name="description" content="Simple memory game">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet" href="css/tasarim.css">
+</head>
+
+<body>
+    <div class="oyun">
+        <header>
+            <h1 class="game-heading">Hafıza Oyunu</h1>
+        </header>
+        <div class="skor-tablosu">
+            <div id="skor">
+                <div class="hamle">
+                    <span class="hamleSayisi"></span>
+                    <span class="hamleMetni"> Hamle </span>
+                </div>
+            </div>
+            <div id="zaman">
+                <span class="saat">00</span> :
+                <span class="dakika">00</span> :
+                <span class="saniye">00</span>
+            </div>
+        </div>
+        <ul class="kare">
+            <li class="kart">
+                <i class="fab"></i>
+            </li>
+            <li class="kart">
+                <i class="fab"></i>
+            </li>
+            <li class="kart">
+                <i class="fab"></i>
+            </li>
+            <li class="kart">
+                <i class="fab"></i>
+            </li>
+            <li class="kart">
+                <i class="fab"></i>
+            </li>
+            <li class="kart">
+                <i class="fab"></i>
+            </li>
+            <li class="kart">
+                <i class="fab"></i>
+            </li>
+            <li class="kart">
+                <i class="fab"></i>
+            </li>
+            <li class="kart">
+                <i class="fab"></i>
+            </li>
+            <li class="kart">
+                <i class="fab"></i>
+            </li>
+            <li class="kart">
+                <i class="fab"></i>
+            </li>
+            <li class="kart">
+                <i class="fab"></i>
+            </li>
+            <li class="kart">
+                <i class="fab"></i>
+            </li>
+            <li class="kart">
+                <i class="fab"></i>
+            </li>
+            <li class="kart">
+                <i class="fab"></i>
+            </li>
+            <li class="kart">
+                <i class="fab"></i>
+            </li>
+        </ul>
+    </div>
+    <div id="basitModel" class="kutucuk">
+        <div class="kutu-icerik">
+            <div class="kutu-baslik">
+                <span class="carpi-butonu">&times;</span>
+                <h2>Tebrikler!</h2>
+            </div>
+            <div class="kutu-tasarim">
+                <h3>Oyunu başarıyla tamamladınız!</h3>
+                <p>
+                    <span class="saat"></span>
+                    <span class="dk"></span>
+                    <span class="saniye"></span>
+                    <span class="hamleSayisi"></span> tamamladınız.<br><span class="sonuc"></span>
+                </p>
+            </div>
+            <div class="yeniden">
+                <button type="button" class="yeniden-butonu"> Yeniden Başla!</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/hafiza.js"></script>
+</body>
+
+</html>
